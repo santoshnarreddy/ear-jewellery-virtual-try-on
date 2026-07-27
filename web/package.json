@@ -1,0 +1,15 @@
+{
+  "name": "ear-landmark-onnx-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser / Node demo for 2-SHGNet ONNX ear landmarks",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "bench": "node bench_node.mjs"
+  },
+  "dependencies": {
+    "onnxruntime-node": "^1.20.0",
+    "onnxruntime-web": "^1.20.0"
+  }
+}
