@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ear-jewellery-virtual-try-on
+    env: node
+    buildCommand: cd web && npm install
+    startCommand: cd web && npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 18
