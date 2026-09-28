@@ -15,6 +15,8 @@ def build():
         "--noconfirm",
         "--clean",
         "--onedir",
+        "--exclude-module=tensorflow",
+        "--exclude-module=tensorboard",
         "--add-data=config.py:.",
         "--add-data=detectors:detectors",
         "--add-data=tracking:tracking",
